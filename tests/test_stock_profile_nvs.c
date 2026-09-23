@@ -51,7 +51,8 @@ esp_err_t nvs_commit(nvs_handle_t handle)
     assert(handle==123); ++commit_count;
     if(commit_error) return commit_error;
     memcpy(stored,pending,pending_length); stored_length=pending_length;
-    if(cancel_at==CANCEL_COMMIT)save_live=false;return 0;
+    if (cancel_at == CANCEL_COMMIT) save_live = false;
+    return 0;
 }
 void nvs_close(nvs_handle_t handle) { assert(handle==123); ++close_count; }
 

@@ -104,7 +104,8 @@ static void test_stock_init_requires_the_actual_serial(void)
     wire[1]=0;assert(wallet_ble_stock_serial_valid(wire,serial));
     assert(!wallet_ble_stock_serial_valid(wire,"A1b2c3d4e5f6"));
     assert(!wallet_ble_stock_serial_valid(wire,"a1b2c3d4e5f7"));
-    assert(!wallet_ble_stock_serial_valid(wire,"short"));
+    const char short_serial[13]="short";
+    assert(!wallet_ble_stock_serial_valid(wire,short_serial));
     wire[14]='x';assert(!wallet_ble_stock_serial_valid(wire,serial));wire[14]=0;
     wire[0]=2;assert(!wallet_ble_stock_serial_valid(wire,serial));
     assert(!wallet_ble_stock_serial_valid(NULL,serial));

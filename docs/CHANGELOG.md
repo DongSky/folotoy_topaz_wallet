@@ -10,9 +10,9 @@
 > with `CHANGELOG.zh_CN.md`. The entries currently under `Unreleased` are pending
 > review for the next release; they are not a finalized release history.
 
-## v0.3.0-dev.1 — Topa Wallet
+## v0.3.0-dev.2 — Topaz Wallet
 
-- Publish the first standalone Topa Wallet preview with Android 0.3-dev (code 3).
+- Publish the first standalone Topaz Wallet preview with Android 0.3-dev (code 3).
 - Add personal cards, external Alipay/WeChat receiving-code import, mnemonic wallet
   import for receiving QR codes and Bluetooth page synchronization.
 - Rename the app and device card menu; display mnemonic input as ordinary text.

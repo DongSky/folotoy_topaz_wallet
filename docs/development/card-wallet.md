@@ -2,4 +2,4 @@
 
 # Card Wallet
 
-The earlier standalone experiment is superseded by [Topa Wallet](card-wallet-redesign.md).
+The earlier standalone experiment is superseded by [Topaz Wallet](card-wallet-redesign.md).

@@ -52,7 +52,9 @@ esp_err_t esp_partition_mmap(const esp_partition_t *p,size_t offset,size_t len,e
 void esp_partition_munmap(esp_partition_mmap_handle_t handle){assert(handle==1||handle==2);++unmaps;}
 stock_profile_store_result_t stock_profile_nvs_load(stock_profile_t *out,bool *migrated)
 {
-    if(migrated)*migrated=false;if(load_result==STOCK_PROFILE_STORE_OK)*out=persisted;return load_result;
+    if (migrated) *migrated = false;
+    if (load_result == STOCK_PROFILE_STORE_OK) *out = persisted;
+    return load_result;
 }
 stock_profile_store_result_t stock_profile_nvs_save_guarded(const stock_profile_t *in,
     stock_profile_save_guard_t guard, void *context)

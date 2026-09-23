@@ -85,7 +85,8 @@ esp_err_t esp_partition_write(const esp_partition_t *p,size_t offset,const void 
     if(fail_row&&writes==fail_row)return -1;
     const uint8_t *in=data;
     for(size_t i=0;i<n;i++){assert((frame_bytes[offset+i]&in[i])==in[i]);frame_bytes[offset+i]&=in[i];}
-    if(cancel_row)session_live=false;return ESP_OK;
+    if (cancel_row) session_live = false;
+    return ESP_OK;
 }
 static bool guard(void *context){assert(context==&session_live);return session_live;}
 typedef struct { unsigned channels,rows;bool stop; } row_context_t;

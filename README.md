@@ -1,6 +1,6 @@
 [简体中文](README.zh_CN.md)
 
-# Topa Wallet
+# Topaz Wallet
 
 A companion app and device application that brings personal cards and receiving
 codes to AI Passport. Edit content on Android, sync it over Bluetooth, and carry

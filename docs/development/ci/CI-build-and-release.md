@@ -6,7 +6,7 @@
 verified firmware as an Actions artifact. It does not publish GitHub Releases or
 run on tags. Main-branch firmware checks remain in `firmware-checks.yml`.
 
-For Topa Wallet releases, the maintainer checks source and packaged binaries for
+For Topaz Wallet releases, the maintainer checks source and packaged binaries for
 personal data, verifies checksums and signs off on known hardware limitations.
 Create a release at the reviewed commit and upload only the checked APK, firmware
 bundle, manifest, sanitization report and checksums. Do not upload device backups,

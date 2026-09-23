@@ -1,6 +1,6 @@
 [简体中文](card-wallet-redesign.zh_CN.md)
 
-# Topa Wallet Application
+# Topaz Wallet Application
 
 The current implementation is described in the [project guide](../../README.md).
 Android version 0.3-dev retains its package ID for compatible upgrades. Its mnemonic
