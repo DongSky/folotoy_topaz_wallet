@@ -1,0 +1,34 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.folotoy.passport.wallet'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.folotoy.passport.wallet'
+        minSdk 26
+        targetSdk 35
+        versionCode 3
+        versionName '0.3-dev'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    compileOptions {
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.15.0'
+    implementation 'com.google.zxing:core:3.5.3'
+    implementation 'com.google.code.gson:gson:2.11.0'
+    implementation('org.bitcoinj:bitcoinj-core:0.16.3') {
+        exclude group: 'org.bouncycastle', module: 'bcprov-jdk15to18'
+    }
+    implementation 'org.bouncycastle:bcprov-jdk15to18:1.83'
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+    androidTestImplementation 'androidx.test:runner:1.6.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+}
