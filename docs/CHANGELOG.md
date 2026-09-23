@@ -10,7 +10,7 @@
 > with `CHANGELOG.zh_CN.md`. The entries currently under `Unreleased` are pending
 > review for the next release; they are not a finalized release history.
 
-## v0.3.0-dev.2 — Topaz Wallet
+## v0.3.0-dev.3 — Topaz Wallet
 
 - Publish the first standalone Topaz Wallet preview with Android 0.3-dev (code 3).
 - Add personal cards, external Alipay/WeChat receiving-code import, mnemonic wallet

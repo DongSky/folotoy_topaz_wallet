@@ -65,6 +65,13 @@ Build and host tests passed; Android has 62 passing unit tests and ten emulator
 tests. The renamed firmware has not been tested on the physical device. Real BLE,
 WeChat, display/QR and audio acceptance remain pending.
 
+## Acknowledgements
+
+Built on [FoloToy AI Passport](https://github.com/FoloToy/ai-passport).
+Thanks to its contributors, the public protocol researchers, and the open-source
+libraries used here. See [Acknowledgements](docs/acknowledgements.md) for sources,
+contributions and license information.
+
 ## License
 
 Preserve [LICENSE](LICENSE) (FoloToy MIT) and third-party notices, including the font

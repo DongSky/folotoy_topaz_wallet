@@ -43,6 +43,10 @@ APK 与固件包可从 [Releases](https://github.com/DongSky/folotoy_topaz_walle
 
 构建和主机测试通过；Android 的 62 项单元测试与 10 项模拟器测试通过。更名固件未进行实机测试，真实 BLE、微信小程序、显示／扫码及音频验收仍待完成。
 
+## 致谢
+
+本项目基于 [FoloToy AI Passport](https://github.com/FoloToy/ai-passport) 开发。感谢原项目贡献者、公开协议研究者及相关开源依赖。来源、贡献与许可证信息详见[致谢文档](docs/acknowledgements.zh_CN.md)。
+
 ## 许可证
 
 保留 [LICENSE](LICENSE)（FoloToy MIT）与第三方声明，包括 `assets/fonts/` 字体许可证。测试使用公开虚构数据。
